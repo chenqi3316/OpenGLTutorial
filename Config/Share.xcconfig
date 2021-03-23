@@ -1,0 +1,25 @@
+// Path
+GC_TARGET_PREFIX = $(EFFECTIVE_PLATFORM_NAME)/$(CONFIGURATION)/$(NATIVE_ARCH)
+
+GC_BUILD_PATH = $(SRCROOT)/Build
+
+CONFIGURATION_BUILD_DIR  = $(GC_BUILD_PATH)/$(GC_TARGET_PREFIX)
+
+CONFIGURATION_TEMP_DIR = $(GC_BUILD_PATH)/Object/$(GC_TARGET_PREFIX)
+
+// Macro
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) _DEBUG
+
+// Header
+USER_HEADER_SEARCH_PATHS = ${SRCROOT} ${SRCROOT}/3rdParty/include
+
+//Library
+LIBRARY_SEARCH_PATHS = ${SRCROOT}/3rdParty/lib
+
+GC_LINK_LIBRARIES = -lglfw3 -lCommon
+
+GC_LINK_FRAMEWORKS = -framework "Foundation" -framework "CoreGraphics" -framework "IOKit" -framework "CoreVideo" -framework "AppKit" -framework "OpenGL"
+
+OTHER_LDFLAGS = -ObjC -w $(GC_LINK_LIBRARIES) $(GC_LINK_FRAMEWORKS)
+
+OTHER_CFLAGS = -Wno-unused-function
