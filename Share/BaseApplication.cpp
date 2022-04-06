@@ -93,6 +93,7 @@ void BaseApplication::setMouseScrollCallback(MouseScrollCallback callback)
 {
     glfwSetScrollCallback(_window, [](GLFWwindow *window, double x, double y) {
         mouseScrollCallbackDelegate(window, x, y);
+        
     });
     
     mouseScrollCallbackDelegate = callback;
