@@ -14,6 +14,7 @@ BaseApplication::BaseApplication() : _runTime(-1), _isFirstMouse(true)
 
 void BaseApplication::preSetup()
 {
+    
 }
 
 void BaseApplication::setup(GLFWwindow *window)
