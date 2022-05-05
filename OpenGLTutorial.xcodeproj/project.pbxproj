@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65D07DEB260A244D0076006F /* Lesson1Application.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D07DE9260A244D0076006F /* Lesson1Application.h */; };
-		65D07DEC260A244D0076006F /* Lesson1Application.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D07DEA260A244D0076006F /* Lesson1Application.cpp */; };
+		2E8EF11C2823E9D300D7FF85 /* Lesson1Application.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E8EF11A2823E9D300D7FF85 /* Lesson1Application.cpp */; };
+		2E8EF11E2823EAFB00D7FF85 /* Lesson1Application.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8EF11B2823E9D300D7FF85 /* Lesson1Application.h */; };
 		E74F4D6320EF11E900EDA8A0 /* BaseApplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E74F4D6120EF11E900EDA8A0 /* BaseApplication.cpp */; };
 		E74F4D6420EF11EA00EDA8A0 /* BaseApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = E74F4D6220EF11E900EDA8A0 /* BaseApplication.h */; };
 		E74F4D8520EF1EA900EDA8A0 /* Shader in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74F4D8320EF1E9300EDA8A0 /* Shader */; };
@@ -42,8 +42,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		65D07DE9260A244D0076006F /* Lesson1Application.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Lesson1Application.h; path = ../../../../Documents/Lesson1Application.h; sourceTree = "<group>"; };
-		65D07DEA260A244D0076006F /* Lesson1Application.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Lesson1Application.cpp; path = ../../../../Documents/Lesson1Application.cpp; sourceTree = "<group>"; };
+		2E8EF11A2823E9D300D7FF85 /* Lesson1Application.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Lesson1Application.cpp; sourceTree = "<group>"; };
+		2E8EF11B2823E9D300D7FF85 /* Lesson1Application.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson1Application.h; sourceTree = "<group>"; };
 		E74F4D6120EF11E900EDA8A0 /* BaseApplication.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaseApplication.cpp; sourceTree = "<group>"; };
 		E74F4D6220EF11E900EDA8A0 /* BaseApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseApplication.h; sourceTree = "<group>"; };
 		E74F4D8320EF1E9300EDA8A0 /* Shader */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Shader; sourceTree = "<group>"; };
@@ -90,11 +90,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E74F4D6520EF14AF00EDA8A0 /* Lesson */ = {
+		2E8EF1192823E99E00D7FF85 /* Lesson */ = {
 			isa = PBXGroup;
 			children = (
-				65D07DE9260A244D0076006F /* Lesson1Application.h */,
-				65D07DEA260A244D0076006F /* Lesson1Application.cpp */,
+				2E8EF11A2823E9D300D7FF85 /* Lesson1Application.cpp */,
+				2E8EF11B2823E9D300D7FF85 /* Lesson1Application.h */,
 			);
 			path = Lesson;
 			sourceTree = "<group>";
@@ -103,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				E74F4D8320EF1E9300EDA8A0 /* Shader */,
-				E74F4D6520EF14AF00EDA8A0 /* Lesson */,
+				2E8EF1192823E99E00D7FF85 /* Lesson */,
 				E775730620E08B5C0062BE9E /* Config */,
 				E775730020E08AE30062BE9E /* 3rdParty */,
 				E77572FE20E087C90062BE9E /* Share */,
@@ -227,10 +227,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E8EF11E2823EAFB00D7FF85 /* Lesson1Application.h in Headers */,
 				E7FA917B218996E9004E6395 /* Camera.h in Headers */,
 				E7FA917F218A9E9B004E6395 /* Program.h in Headers */,
 				E74F4D6420EF11EA00EDA8A0 /* BaseApplication.h in Headers */,
-				65D07DEB260A244D0076006F /* Lesson1Application.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D07DEC260A244D0076006F /* Lesson1Application.cpp in Sources */,
+				2E8EF11C2823E9D300D7FF85 /* Lesson1Application.cpp in Sources */,
 				E7FA917E218A9E9B004E6395 /* Program.cpp in Sources */,
 				E74F4D6320EF11E900EDA8A0 /* BaseApplication.cpp in Sources */,
 				E775734B20E0DB530062BE9E /* gl3w.c in Sources */,
