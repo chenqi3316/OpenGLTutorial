@@ -1,10 +1,9 @@
 #version 400 core
 
-out vec4 FragColor;
-
-int vec4 vertexColor;
+out vec4 faColor;
+uniform vec4 vertexColor;
 
 void main()
 {
-    FragColor = vertexColor;
+    faColor = vertexColor;
 }

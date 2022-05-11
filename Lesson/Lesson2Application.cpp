@@ -68,6 +68,10 @@ void Lesson2Application::draw()
     auto nowTime = glfwGetTime();
     printf("%f\n", nowTime);
     
+    float greenValue = (sin(nowTime) / 2.0f) + 0.5f;
+    int vertexColorLocation = _program.getUniform("vertexColor");
+    glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);
+    
     static const GLfloat black[] = { 0.2f, 0.2f, 0.2f, 0.0f };
     // 设置清空颜色缓冲区时使用的颜色为黑色。GL_COLOR、GL_DEPTH、GL_STENCIL
     glClearBufferfv(GL_COLOR, 0, black);

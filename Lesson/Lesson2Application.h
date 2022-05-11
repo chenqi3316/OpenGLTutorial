@@ -1,6 +1,6 @@
 //
 //  Lesson2Application.hpp
-//  使用更多属性绘制三角形
+//  使用uniform进行代码和着色器之间的交互
 //
 //  Created by HCM-B0233 on 2022/5/9.
 //  Copyright © 2022 KuaiShou. All rights reserved.
