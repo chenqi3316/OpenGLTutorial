@@ -1,17 +1,17 @@
 //
-//  Lesson1Application.hpp
-//  绘制椭圆形
+//  Lesson2Application.hpp
+//  使用更多属性绘制三角形
 //
-//  Created by HCM-B0233 on 2022/5/5.
+//  Created by HCM-B0233 on 2022/5/9.
 //  Copyright © 2022 KuaiShou. All rights reserved.
 //
 
-#ifndef Lesson1Application_h
-#define Lesson1Application_h
+#ifndef Lesson2Application_h
+#define Lesson2Application_h
 
 #include "Share/BaseApplication.h"
 
-class Lesson1Application : public BaseApplication {
+class Lesson2Application : public BaseApplication {
 public:
     virtual void setup(GLFWwindow *window) override;
     virtual void draw() override;
@@ -22,7 +22,7 @@ protected:
     
     enum Attrib_IDs { vPosition = 0 };
 
-    const int circlePointsNumber = 360;
+    int vertexCount = 3; // 顶点数量
     
 protected:
     virtual const std::vector<Program::ShaderConfig> getShaderConfigs() const override;
